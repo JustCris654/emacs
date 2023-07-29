@@ -7,9 +7,7 @@
               ("h" . dired-up-directory)
               ("j" . dired-next-line)
               ("k" . dired-previous-line)
-              ("l" . dired-single-buffer))
-  :general
-  (+general-global-application "d" 'dired))
+              ("l" . dired-single-buffer)))
 
 (use-package all-the-icons-dired
   :if (display-graphic-p)

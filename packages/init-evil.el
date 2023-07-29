@@ -15,3 +15,19 @@
   :after evil
   :config
   (evil-commentary-mode))
+
+(use-package evil-anzu
+  :after (evil anzu))
+
+(use-package evil-easymotion)
+
+(use-package evil-snipe
+  :after evil
+  :config
+  (evil-snipe-mode t)
+  (evil-snipe-override-mode t))
+
+(use-package evil-visualstar
+  :after evil
+  :config
+  (global-evil-visualstar-mode))

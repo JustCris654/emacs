@@ -10,7 +10,7 @@
     :global-prefix "M-SPC") ;; access leader in insert mode
 
  (jc/leader-key
-    "SPC" '(counsel-M-x :wk "Counsel M-x")
+    "SPC" '(projectile-find-file :wk "Counsel M-x")
     "." '(find-file :wk "Find file")
     "," '(counsel-recentf :wk "Find recent files"))
 

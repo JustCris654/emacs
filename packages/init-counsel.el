@@ -1,7 +1,10 @@
 (use-package counsel
   :after ivy
   :diminish
-  :config (counsel-mode))
+  :config
+  (use-package flx
+    :ensure t)
+  (counsel-mode))
 
 (use-package ivy
   :bind

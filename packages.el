@@ -15,7 +15,6 @@
 (load-file (expand-file-name "packages/init-lsp-mode.el" user-emacs-directory))
 (load-file (expand-file-name "packages/init-solaire-mode.el" user-emacs-directory))
 (load-file (expand-file-name "packages/init-doom-modeline.el" user-emacs-directory))
-(load-file (expand-file-name "packages/init-anzu.el" user-emacs-directory))
 (load-file (expand-file-name "packages/init-rustic.el" user-emacs-directory))
 
 (load-file (expand-file-name "packages/init-general.el" user-emacs-directory))
